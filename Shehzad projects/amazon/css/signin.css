@@ -1,0 +1,93 @@
+.logo{
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-pic{
+    height: 50px;
+    width: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-div{
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 122px;
+    margin-right: 122px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signin{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.1px solid;
+    margin-left: 24rem;
+    
+   
+}
+.contact{
+    font-weight: 700;
+}
+#input{
+    width: 290px;
+    height: 30px;
+    border-radius: 5px;
+    /* border: 0px solid; */
+}
+#input:focus{
+    border: rgb(92, 92, 235) 0px solid;
+    box-shadow: rgb(92, 92, 235) 1px 1px 4px 4px;
+    
+}
+.con-btn{
+    width: 296px;
+    height: 30px;
+    background-color: rgb(231, 190, 55);
+    border-radius: 8px;
+    margin-top: 15px;
+    border: none;
+}
+.buy{
+    /* border-top: 0.80px solid #6d6767; */
+    font-weight: 700;
+    padding-top: 15px;
+}
+.new-main{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left:23.5rem ;
+    margin-top: 2rem;
+    width: 350px;
+}
+.new{
+    color: #3a3838;
+    /* margin-left: 31rem; */
+    /* margin-top: 1rem; */
+}
+.create{
+    width: 328px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 24rem;
+    margin-top: 1rem;
+}
+.create:hover{
+   background-color: rgb(213, 247, 235);
+}
+.foot-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.foot-panel a{
+    margin-left: 20px;
+    text-decoration: none;
+}
