@@ -41,5 +41,35 @@
     <div class="foot-panel" style="margin-top: -20px;">
         <p>© 1996-, Amazon.com, Inc. or its affiliates</p>
      </div>
+
+<!--Fierebase linked here-->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to usen
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyA7TutnqAYKJoIeaE9O1SKPep3eIlt5rz8",
+        authDomain: "clone-by-shehzad.firebaseapp.com",
+        projectId: "clone-by-shehzad",
+        storageBucket: "clone-by-shehzad.appspot.com",
+        messagingSenderId: "347376800247",
+        appId: "1:347376800247:web:6797c838d7bb0c3d2f1ef2",
+        measurementId: "G-EK2V116WWS"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    console.log(app);
+
+    //Create Accont code is here 
+
+</script>
+
 </body>
 </html>
